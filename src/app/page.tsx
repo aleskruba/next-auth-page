@@ -1,5 +1,8 @@
 import Image from 'next/image'
-
+// npm i prisma
+// npx prisma init --datasource-provider sqllite
+// npx prisma migrate dev --name first migration
+// npm i next-auth
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

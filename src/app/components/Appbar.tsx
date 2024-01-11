@@ -18,7 +18,13 @@ const Appbar = () => {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-            <button>Sign in</button>
+        <Link
+            className="hover:text-sky-500 transition-colors"
+            color="foreground"
+            href="/auth/signup"
+          >
+            SignUp
+          </Link>
          {/*  <SigninButton /> */}
         </NavbarItem>
       </NavbarContent>
